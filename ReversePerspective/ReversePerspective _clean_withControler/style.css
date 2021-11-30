@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /*background-color: beige;*/
+}
+
+canvas {
+    position: absolute;
+    border: 1px solid black;
+}
+
+#controller {
+    /*need to be precise to be clickable*/
+    position: absolute;
+    background-color: #414141;
+    margin: 0;
+    margin-left: 80%;
+    width: 20%;
+    height: auto;
+    color: darkgray;
+    opacity: 100%;
+    text-align: center;
+}
